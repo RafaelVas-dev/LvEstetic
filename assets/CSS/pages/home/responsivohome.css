@@ -1,0 +1,198 @@
+/* ===== Responsividade ===== */
+
+@media (max-width: 1220px){
+    /* == Menu == */
+
+    .menu-icon p{
+        font-size: 15px;
+    }
+
+    .menu-nav{
+        border-bottom-right-radius: 20px;
+    }
+
+    .menu-nav li{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    /* == Menu Ativo == */
+    .menu-nav.ativo{
+        width: 50%;
+    }
+
+    /* == Animação do menu */
+    @keyframes toRight {
+        50%{
+            transform: translateX(5px);
+        }
+        100%{
+            transform: translateX(10px);
+        }
+    }
+}
+
+
+@media (max-width: 950px){
+    /* === Sobre Nós === */
+    #sobre{
+        padding: 9rem 0;
+        position: relative;
+    }
+
+    #sobre > h1{
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        text-align: center;
+        align-self: center;
+    }
+
+    .conteiner{
+        flex-direction: column;
+    }
+
+    .conteiner .sobre-txt{
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .conteiner .sobre-box{
+        width: 80%;
+        height: 80%;
+        font-size: 16px;
+        margin: 2rem 0;
+    }
+
+    .sobre-box h4{
+        font-size: 1.5rem;
+    }
+
+    .sobre-social{
+        margin: 1rem 0;
+    }
+
+}
+
+
+@media (max-width: 900px){
+    /* === Galeria === */
+    .galery-mobile{
+        display: block;
+    }
+    .galery-desktop{
+        display: none;
+    }
+
+    .btns-nav{
+        height: 5%;
+        gap: 0.5rem;
+    }
+
+    /* == Setas == */
+    .gal-arrow{
+        font-size: 2rem;
+        margin: 0;
+    }
+}
+
+@media (max-width: 700px){
+    /* === Introdução === */
+    .title{
+        font-size: 3rem;
+        line-height: 70px;
+        top: 30%;
+    }
+
+
+    /* == Botão == */
+    .control{
+        display: none;
+    }
+
+    /* == Seta == */
+    .arrow{
+        font-size: 1rem;
+    }
+
+
+    /* === Sobre Nós === */
+    #sobre{
+        padding: 10rem 0;
+    }
+
+    #sobre > h1{
+        top: 30px;
+        font-size: 2.1rem;
+    }
+
+    .conteiner .sobre-txt{
+        font-size: 16px;
+        margin-top: 0.5rem;
+    }
+
+    .conteiner .sobre-box{
+        margin: 4rem 0;
+    }
+
+    /* === Contato ===  */
+
+    .btns-cont{
+        flex-direction: column;
+        margin: 0;
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .btns-cont a{
+        width: 100%;
+    }
+
+    .btns-cont a:hover::before{
+        width: 1000px;
+        height: 1000px;
+    }
+
+    /* === Footer === */
+    footer{
+        font-size: 13px;
+    }
+}
+
+
+
+@media (max-width: 600px){
+
+    /* === Sobre Nós === */
+       #sobre > h1{
+        top: 10px;
+    }
+}
+
+@media (max-width: 430px){
+
+    /* === Sobre Nós === */
+    #sobre{
+        padding: 12rem 0 5rem 0;
+    }
+
+    #sobre > h1{
+        top: 10px;
+    }
+
+    .sobre-box h4{
+        bottom: 90px;
+        font-size: 1.5rem;
+    }
+
+
+
+    /* ==== Menu ==== */
+    /*Menu Ativo*/
+    .menu-nav.ativo{
+        width: 100%;
+    }
+}

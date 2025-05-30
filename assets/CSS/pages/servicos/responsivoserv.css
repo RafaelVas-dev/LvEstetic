@@ -1,0 +1,252 @@
+/* ===== Responsividade ===== */
+
+@media (max-width: 1200px){
+    /* === Introdução === */
+    .box{
+        font-size: 4rem;
+        top: 65%;
+    }
+
+    .box h1{
+        line-height: 100px;
+    }
+}
+
+@media(max-width: 1030px){
+    /*=== Vantagens ===*/
+    .van{
+        height: 100vh;
+        position: relative;
+        margin-bottom: 8rem;
+    }
+
+    .conteiner{
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .van-box{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .van-box .icon{
+        font-size: 4rem;
+        margin-bottom:  1rem;
+    }
+
+    .van-box .van-content{
+        font-size: 16px;
+    }
+
+    .van-content h5{
+        font-size: 1.5rem;
+        color: var(--gold);
+        margin-bottom: 0.7rem;
+    }
+
+    /*=== Contato ===*/
+    #contato{
+        border-top: 1px solid var(--gold);
+        padding: 4rem 0 0;
+        margin-top: 500px;
+    }
+
+}
+
+@media(max-width: 940px){
+    /*=== Descrição ===*/
+
+    .desc-cont{
+        width: 80%;
+    }
+
+    .desc-cont h3, .van h2{
+        font-size: 1.8rem;
+    }
+
+    .desc-cont p{
+        font-size: 18px;
+    }
+
+    /*=== Vantagens ===*/
+    .van{
+        margin-bottom: 8rem;
+    }
+
+    .conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem ;
+    }
+}
+
+
+@media (max-width: 900px){
+    /*=== Contato ===*/
+    #contato{
+        margin-top: 600px;
+    }
+
+}
+
+
+@media (max-width: 810px){
+    /* === Introdução === */
+    .box{
+        font-size: 3.5rem;
+    }
+
+    .box h1{
+        line-height: 70px;
+    }
+
+
+    /*=== Descrição ===*/
+    .desc-cont{
+        margin: 5rem auto;
+    }
+}
+
+
+@media(max-width: 700px){
+
+    /*=== Descrição ===*/
+
+  
+    
+
+    /*=== Contato ===*/
+
+    #contato{
+        margin-top: 600px;
+    }
+
+    .btns-cont a i{
+        font-size: 2.6rem;
+    }
+
+
+    /* === Contato ===  */
+    .btns-cont{
+        flex-direction: column;
+        margin: 0;
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .btns-cont a{
+        width: 100%;
+    }
+
+    .btns-cont a:hover::before{
+        width: 1000px;
+        height: 1000px;
+    }
+
+    /* === Footer === */
+    footer{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 610px) {
+
+    /*=== Introdução ===*/
+    .box{
+        top: 75%;
+        padding: 1rem;
+        font-size: 30px;
+    }
+
+    .box h1{
+        line-height: 80px;
+    }
+
+    /*=== Descrição ===*/
+    .desc-cont{
+        padding: 0.5rem;
+    }
+
+    .desc-cont p{
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+
+    /*=== Vantagens ===*/
+    
+    .van{
+        margin-bottom: 45rem;
+    }
+
+    .van-box .icon{
+        font-size: 3rem;
+    }
+
+    /*=== Contato ===*/
+
+    #contato{
+        padding: 1rem;
+    }
+
+    .btns-cont a i{
+        font-size: 2.6rem;
+    }
+
+}
+
+
+
+@media (max-width: 430px){
+    /*=== Introdução ===*/
+    /* == Imgs de fundo */
+    #martelinho, #polimento, #lavagem, #cristalizacao, #vitrificacao{
+        width: 100%;
+    }
+
+    .box{
+        top: 72%;
+        padding: 1rem;
+        font-size: 40px;
+    }
+
+    /*=== Descrição ===*/
+    .desc-cont{
+        padding: 1rem;
+    }
+
+    .desc-cont p{
+        line-height: 23px;
+        letter-spacing: 0.8px;
+        font-size: 16px;
+    }
+
+    /*=== Vantagens ===*/
+    .van{
+        margin: 50rem 0 ;
+    }
+
+    .van-box .icon{
+        font-size: 2.7rem;
+    }
+
+    /*=== Contato ===*/
+
+    #contato{
+        margin-top: 700px;
+        padding: 1rem;
+    }
+
+    .btns-cont a i{
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
